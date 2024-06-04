@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 26
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: roboflow-100
+  project: sign-language-sokdr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/sign-language-sokdr/dataset/2

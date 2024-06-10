@@ -1,8 +1,4 @@
-from hand_sign_detection.logger import logging
-from hand_sign_detection.exception import AppException
-import sys
+from hand_sign_detection.pipeline.training_pipeline import TrainPipeline
 
-try:
-    a=1/0
-except Exception as e:
-    raise AppException("Error occurred",sys)
+obj=TrainPipeline()
+obj.run_pipeline()
